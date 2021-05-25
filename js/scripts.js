@@ -10,6 +10,7 @@ bouton.addEventListener('click', () => {
   // On affiche la popup
   popupTitle.innerHTML = inputPrenom.value
   popup.style = 'display: flex'
+  alert("https://soundcloud.com/user-910533388")
 })
 
 // Fermeture de la popup
