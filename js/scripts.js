@@ -8,7 +8,7 @@ const close = document.getElementById('closePopup')
 // Ouverture de la popup
 bouton.addEventListener('click', () => {
   // On affiche la popup
-  popupTitle.innerHTML = inputPrenom.value
+  popupTitle.innerHTML = "J'espere que tu vas bien, " + inputPrenom.value
   popup.style = 'display: flex'
 })
 
